@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install --registry=http://registry.npm.release.ctripcorp.com' 
+                sh 'npm i' 
             }
         }
         stage('Test') {
